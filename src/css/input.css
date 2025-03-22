@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll-x-main {
+    @apply border-2 border-solid border-[#6b6b6b67] rounded-md p-6 min-w-full md:min-w-[48%] lg:min-w-[32%];
+}
+
+.scroll-x-child {
+    @apply font-semibold text-xl w-full mt-5 mb-2;
+}
+
+.jarak {
+  @apply ml-5 mr-5 lg:ml-14 lg:mr-14 lg:mt-14;
+}
+
+.h3 {
+  @apply font-semibold text-5xl;
+}
+
+.testi {
+  @apply border-2 border-solid border-[#8281815d] rounded-md p-4 m-auto;
+}
+
+.jarak2 {
+  @apply ml-3 mr-3 mt-2;
+}
+
+.h6 {
+  @apply text-2xl font-semibold jarak2;
+}
+
+.article-main{
+  @apply lg:w-[50%] mt-7 border-2 border-solid border-[#7f7f7f71] pb-6 rounded-md;
+}
+
+.article-main2{
+  @apply mt-7 border-2 border-solid border-[#7f7f7f71] pb-6 rounded-md;
+}
+
+.article{
+  @apply text-gray-400 line-clamp-2 mb-7;
+}
+
+.article2{
+  @apply text-gray-400 line-clamp-2 mb-2;
+}
+
+.breakpoint-article {
+  @apply w-32 h-32;
+}
